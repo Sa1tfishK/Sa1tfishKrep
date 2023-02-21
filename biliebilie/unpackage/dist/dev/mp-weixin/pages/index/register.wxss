@@ -1,0 +1,41 @@
+.register {
+  height: 750px;
+  background-color: #f5f5f5;
+}
+.register .regtop {
+  height: 18%;
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 28%;
+  border-bottom-right-radius: 28%;
+}
+.register .regtop label {
+  color: white;
+  font-size: 20px;
+}
+.register .regbot {
+  height: 70%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.register .regbot  .uni-easyinput {
+  height: 45px;
+  width: 280px;
+  flex: none;
+}
+.register .regbot view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.register .regbot view button {
+  width: 35%;
+}
+

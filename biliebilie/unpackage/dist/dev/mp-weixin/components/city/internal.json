@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-tabs": "/uni_modules/v-tabs/components/v-tabs/v-tabs",
+    "uni-segmented-control": "/uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control"
+  },
+  "component": true
+}

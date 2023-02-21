@@ -1,0 +1,31 @@
+.pressitem {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  border-bottom: 1px #f5f5f5 solid;
+}
+.pressitem .press {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px #f5f5f5 solid;
+}
+.pressitem .press .content {
+  display: flex;
+  margin: 10px 0px;
+  width: 100%;
+}
+.pressitem .press .content .mid {
+  margin: 0 10px;
+  width: 70%;
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pressitem .press image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+

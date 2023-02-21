@@ -1,0 +1,54 @@
+.rank {
+  height: 650px;
+}
+.rank .rankswi {
+  height: 100%;
+  padding: 10px;
+  background-color: white;
+  padding-bottom: 200px;
+}
+.rank .rankswi .rankscr {
+  height: 650px;
+}
+.rank .rankswi .rankdetail {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.rank .rankswi .rankdetail image {
+  height: 150px;
+  width: 100px;
+}
+.rank .rankswi .rankdetail .num {
+  margin: 0 10px;
+  font-size: 20px;
+}
+.rank .rankswi .rankdetail view {
+  display: flex;
+  flex-direction: column;
+}
+.rank .rankswi .rankdetail view .autor {
+  font-size: 10px;
+  color: slategrey;
+  margin-top: 10px;
+}
+.rank .rankswi .rankdetail .blurb {
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 14px;
+}
+.rank .rankswi .more {
+  padding-bottom: 150px;
+}
+.rank .rankswi .more button {
+  background-color: white;
+  color: #9f9f9f;
+  font-size: 15px;
+}
+.rank .rankswi .more button::after {
+  border: none;
+}
+

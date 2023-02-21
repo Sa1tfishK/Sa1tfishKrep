@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/login",
+    "pages/index/my",
+    "pages/index/city",
+    "pages/index/search",
+    "pages/index/bookdetail",
+    "pages/index/list",
+    "pages/index/presslist",
+    "pages/index/comic",
+    "pages/index/register",
+    "pages/my/setting",
+    "pages/my/browse",
+    "pages/index/test"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {
+    "footer-vue": "/components/footer"
+  }
+}

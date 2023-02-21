@@ -1,0 +1,46 @@
+.my {
+  background-color: #e8e8e8;
+  height: 100%;
+  width: 100%;
+}
+.my .bimg {
+  width: 100%;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+.my .userview {
+  width: 120px;
+  position: relative;
+  bottom: 150px;
+  left: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+.my .userview .uimg {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.my .btnlist {
+  position: relative;
+  bottom: 124px;
+}
+.my .btnlist .btn {
+  display: flex;
+  font-size: 15rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+.my .btnlist .btn view {
+  display: flex;
+  align-items: center;
+}
+.my .btnlist .btn view label {
+  margin-left: 10px;
+  font-size: 15px;
+}
+

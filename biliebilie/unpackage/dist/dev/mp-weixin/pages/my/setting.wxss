@@ -1,0 +1,39 @@
+.setting {
+  height: 750px;
+  background-color: #f5f5f5;
+}
+.setting .setnav {
+  background-color: #303030;
+  height: 70px;
+  width: 100%;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.setting .setnav  .uni-icons {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.setting .btnlist {
+  position: relative;
+  top: 100px;
+}
+.setting .btnlist .btn {
+  display: flex;
+  font-size: 15rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+.setting .btnlist .btn view {
+  display: flex;
+  align-items: center;
+}
+.setting .btnlist .btn view label {
+  margin: 0 10px;
+  font-size: 15px;
+}
+

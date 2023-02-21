@@ -1,0 +1,42 @@
+.internal {
+  height: 650px;
+}
+.internal .interswi {
+  height: 100%;
+  padding: 10px;
+  background-color: white;
+  padding-bottom: 200px;
+}
+.internal .interswi  .segmented-control {
+  height: 20px;
+}
+.internal .interswi .internalscr {
+  height: 600px;
+  padding: 5px;
+}
+.internal .interswi .internalscr .in_book {
+  display: flex;
+  width: 100%;
+  height: 135px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.internal .interswi .internalscr .in_book image {
+  height: 130px;
+  width: 100px;
+}
+.internal .interswi .internalscr .in_book .right {
+  display: flex;
+  width: 71%;
+  height: 90%;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 7px ;
+  padding-top: 5px;
+}
+.internal .interswi .internalscr .in_book .right view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

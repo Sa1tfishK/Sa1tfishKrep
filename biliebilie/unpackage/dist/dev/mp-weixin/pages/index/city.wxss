@@ -1,0 +1,18 @@
+.city {
+  background-color: #f5f5f5;
+  height: 100%;
+}
+.city  .uni-searchbar {
+  background-color: #303030;
+  padding-top: 35px;
+}
+.city  .uni-searchbar__cancel {
+  color: white;
+}
+.city .cityswi {
+  height: 700px;
+}
+.city .cityswi .scroll-Y {
+  height: 650px;
+}
+

@@ -1,0 +1,52 @@
+.browse {
+  height: 750px;
+  background-color: #f5f5f5;
+}
+.browse .brownav {
+  background-color: #303030;
+  height: 70px;
+  width: 100%;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.browse .brownav  .uni-icons {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.browse .browcontent {
+  padding-top: 90px;
+}
+.browse .browcontent .browbook {
+  background-color: white;
+  padding: 2px 5px;
+  display: flex;
+}
+.browse .browcontent .browbook image {
+  height: 140px;
+  width: 100px;
+  margin-right: 10px;
+}
+.browse .browcontent .browbook view {
+  display: flex;
+  height: 120px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.browse .nobrow {
+  padding-top: 100px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.browse .nobrow label {
+  font-size: 20px;
+}
+
